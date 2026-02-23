@@ -1,6 +1,7 @@
 # ✈️ Air Traffic Passenger Analysis & Forecast (SFO)
 
 📂 Dataset: Air_Traffic_Passenger_Statistics.csv
+
 🔗 Source: https://catalog.data.gov/dataset/air-traffic-passenger-statistics
 ________________________________________
 
@@ -9,7 +10,7 @@ This project analyses long-term passenger traffic at San Francisco International
 The analysis combines exploratory data analysis (EDA), time-series feature engineering, and Random Forest forecasting.
 ________________________________________
 
-## 🧰 Tools & Technologies
+## Tools & Technologies
 
 - 🐍 Python
 - 📊 Pandas & NumPy
@@ -18,9 +19,9 @@ ________________________________________
 - 📅 Time-series feature engineering
 ________________________________________
 
-## 🧹 Data Preparation & Processing
+## Data Preparation & Processing
 
-### ✔️ Data cleaning and transformation
+### Data cleaning and transformation
 
 - Converted date column to datetime
 - Aggregated raw records to monthly totals
@@ -37,9 +38,9 @@ monthly = monthly.asfreq('MS')
 ```
 ________________________________________
 
-# 📊 Exploratory Analysis
+# Exploratory Analysis
 
-## 📈 Overall Passenger Trends
+## Overall Passenger Trends
 
 - Strong long-term growth from 2000 to 2019
 - Clear seasonal fluctuations
@@ -67,7 +68,7 @@ ________________________________________
 
 ### Top Regions by Traffic
 - 🇺🇸 US (dominant)
-- 🌏 Asia
+- Asia
 - 🇪🇺 Europe
 - 🇨🇦 Canada
 - 🇲🇽 Mexico
@@ -77,7 +78,7 @@ ________________________________________
 - COVID shock affected all regions simultaneously
 ________________________________________
 
-## 📊 Traffic Composition
+## Traffic Composition
 
 ### Domestic vs International
 - Domestic travel represents the majority of traffic
@@ -92,7 +93,7 @@ ________________________________________
 - Structural composition changed temporarily during the pandemic
 ________________________________________
 
-## 🔥 Seasonality by Region
+## Seasonality by Region
 
 Heatmap analysis shows:
 - Strong summer peaks across regions
@@ -119,7 +120,7 @@ RandomForestRegressor(
 )
 ```
 
-## 📏 Model Evaluation
+## Model Evaluation
 
 Compared against a Seasonal Naive baseline (t-12).
 Metric	Seasonal Naive	Random Forest
@@ -128,7 +129,7 @@ RMSE	281,299	191,048
 ✅ Random Forest improved RMSE by ~32%
 ________________________________________
 
-## ⭐ Feature Importance
+## Feature Importance
 
 Most influential predictors:
 1.	Rolling mean (3 months)
@@ -137,7 +138,7 @@ Most influential predictors:
 4.	Calendar features (minor impact)
 ________________________________________
 
-## 🔮 Forecast for 2026
+## Forecast for 2026
 
 The model predicts:
 •	Continued recovery after COVID disruption
@@ -147,7 +148,7 @@ The model predicts:
 Forecast suggests passenger volumes approaching pre-pandemic highs.
 ________________________________________
 
-## 🧠 Key Insights
+## Key Insights
 
 ✔️ Air traffic exhibits strong seasonality
 ✔️ COVID-19 caused an unprecedented structural shock
@@ -157,11 +158,11 @@ ________________________________________
 ✔️ Short-term dependencies are critical for forecasting
 ________________________________________
 
-## 🚀 Conclusion
+## Conclusion
 
 This project demonstrates how classical time-series techniques combined with machine learning can produce accurate operational forecasts and actionable insights for airport planning, resource allocation, and policy decisions.
 ________________________________________
-## 📊 Key dashboards
+## Key dashboards
 
 Average Monthly Seasonality
 
