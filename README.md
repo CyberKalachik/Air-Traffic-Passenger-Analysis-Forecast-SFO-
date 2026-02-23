@@ -70,10 +70,31 @@ ________________________________________
 
 ## 📅 Seasonality
 
+
 Average monthly traffic shows strong summer peaks:
 - 📉 Lowest: February
 - 📈 Highest: July–August
 - ✈️ Holiday effects visible in winter months
+
+``` Matplotlib
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(12,5))
+plt.plot(monthly.index, monthly.values, color='#1F3A5F')
+
+plt.title('Monthly Passenger Traffic at SFO')
+plt.xlabel('Year')
+plt.ylabel('Passengers')
+
+import matplotlib.ticker as ticker
+
+ax = plt.gca()
+ax.yaxis.set_major_formatter(
+    ticker.FuncFormatter(lambda x, pos: f'{x/1e6:.1f}M')
+)
+
+plt.show()
+```
 ________________________________________
 
 ## 🦠 COVID-19 Impact
