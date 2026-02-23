@@ -21,6 +21,26 @@ ________________________________________
 
 ## Data Preparation & Processing
 
+```Pandas
+import pandas as pd
+import numpy as np
+
+df = pd.read_csv('Air_Traffic_Passenger_Statistics.csv')
+
+# convert the date
+df['Activity Period Start Date'] = pd.to_datetime(
+    df['Activity Period Start Date'],
+    errors='coerce'
+)
+```
+# aggregate to the monthly level.
+monthly = (df.groupby('Activity Period Start Date')['Passenger Count']
+             .sum()
+             .sort_index())
+# We limit the period to 2000–2025
+monthly = monthly['2000-01-01':'2025-11-01']
+monthly.head()
+
 ### Data cleaning and transformation
 
 - Converted date column to datetime
