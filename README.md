@@ -166,60 +166,60 @@ ________________________________________
 
 Average Monthly Seasonality
 
-![Average Monthly Seasonality](Screenshots/Average Monthly Seasonality.jpg)
+![AverageMonthlySeasonality](Screenshots/AverageMonthlySeasonality.jpg)
 
 COVID Impact by Region
 
-![COVID Impact by Region](Screenshots/COVID Impact by Region.jpg)
+![COVIDImpactbyRegion](Screenshots/COVIDImpactbyRegion.jpg)
 
 COVID Impact on Passenger Traffic
 
-![COVID Impact on Passenger Traffic](Screenshots/COVID Impact on Passenger Traffic.jpg)
+![COVIDImpactonPassengerTraffic](Screenshots/COVIDImpactonPassengerTraffic.jpg)
 
-COVID Impact: Domestic vs International
+COVID Impact. Domestic vs International
 
-![COVID Impact: Domestic vs International](Screenshots/COVID Impact. Domestic vs International.jpg)
+![COVIDImpact.DomesticvsInternational](Screenshots/COVIDImpact.DomesticvsInternational.jpg)
 
 Feature Importance
 
-![Feature Importance](Screenshots/Feature Importance.jpg)
+![FeatureImportance](Screenshots/FeatureImportance.jpg)
 
 Forecast for 2026
 
-![Forecast for 2026](Screenshots/Forecast for 2026.jpg)
+![Forecastfor2026](Screenshots/Forecastfor2026.jpg)
 
 Model Performance on Test Set
 
-![Model Performance on Test Set](Screenshots/Model Performance on Test Set.jpg)
+![ModelPerformanceonTestSet](Screenshots/ModelPerformanceonTestSet.jpg)
 
 Monthly Passenger Traffic at SFO
 
-![Monthly Passenger Traffic at SFO](Screenshots/Monthly Passenger Traffic at SFO.jpg)
+![MonthlyPassengerTrafficatSFO](Screenshots/MonthlyPassengerTrafficatSFO.jpg)
 
 Passenger Traffic by Region
 
-![Passenger Traffic by Region](Screenshots/Passenger Traffic by Region.jpg)
+![PassengerTrafficbyRegion](Screenshots/PassengerTrafficbyRegion.jpg)
 
 Regional Traffic Share Over Time
 
-![Regional Traffic Share Over Time](Screenshots/Regional Traffic Share Over Time.jpg)
+![RegionalTrafficShareOverTime](Screenshots/RegionalTrafficShareOverTime.jpg)
 
 Seasonality by Region
 
-![Seasonality by Region](Screenshots/Seasonality by Region.jpg)
+![SeasonalitybyRegion](Screenshots/SeasonalitybyRegion.jpg)
 
 Test Set: Actual vs Baseline vs Model
 
-![Test Set: Actual vs Baseline vs Model](Screenshots/Test Set. Actual vs Baseline vs Model.jpg)
+![TestSet.ActualvsBaselinevsModel](Screenshots/TestSet.ActualvsBaselinevsModel.jpg)
 
 Top Regions by Passenger Traffic
 
-![Top Regions by Passenger Traffic](Screenshots/Top Regions by Passenger Traffic.jpg)
+![TopRegionsbyPassengerTraffic](Screenshots/TopRegionsbyPassengerTraffic.jpg)
 
 Top Regions: Enplaned vs Deplaned Passenger Traffic
 
-![Top Regions: Enplaned vs Deplaned Passenger Traffic](Screenshots/Top Regions. Enplaned vs Deplaned Passenger Traffic.jpg)
+![TopRegions.EnplanedvsDeplanedPassenger Traffic](Screenshots/TopRegions.EnplanedvsDeplanedPassenger Traffic.jpg)
 
 Traffic Share: Domestic vs International
 
-![Traffic Share: Domestic vs International](Screenshots/Traffic Share. Domestic vs International.jpg)
+![TrafficShare.DomesticvsInternational](Screenshots/TrafficShare.DomesticvsInternational.jpg)
