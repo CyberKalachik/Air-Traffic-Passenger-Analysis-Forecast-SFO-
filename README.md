@@ -218,7 +218,7 @@ Top Regions by Passenger Traffic
 
 Top Regions: Enplaned vs Deplaned Passenger Traffic
 
-![TopRegions.EnplanedvsDeplanedPassenger Traffic](Screenshots/TopRegions.EnplanedvsDeplanedPassenger Traffic.jpg)
+![TopRegions.EnplanedvsDeplanedPassengerTraffic](Screenshots/TopRegions.EnplanedvsDeplanedPassengerTraffic.jpg)
 
 Traffic Share: Domestic vs International
 
